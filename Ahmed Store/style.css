@@ -1,0 +1,156 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+  
+    background-color: aliceblue;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin-top: 42px;
+
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-family: sans-serif;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: 2px solid red;
+    color: white;
+    background-color: red;
+    border-radius: 40px ;
+    margin-top: 32px;
+    margin-right: 5px;
+   
+}
+button>a{
+    color: white;
+    font-size: large;
+}
+nav>div>img{
+    border-radius: 100px;
+}
+#search{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+#search>div>a>img{
+    border-radius: 100px;
+
+}
+.container{
+    background-color: antiquewhite;
+    height: 455px;
+    width: 250px;
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    border-radius: 20px;
+}
+.container>a{
+    font-size: large;
+    font-family: serif;
+}
+.container>a>img{
+    border-radius: 100px;
+}
+.container>a{
+    margin-bottom: 10px;
+}
+.container>h1{
+    font-family: sans-serif;
+}
+.welcome{
+   margin-left: 300px;
+   background-color: aliceblue;
+   width: 900px;
+   font-size: large;
+   font-family: sans-serif;
+}
+.Services{
+    font-size: xx-large;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+marquee{
+    border: 4px solid black;
+}
+#service-bar{
+    margin-left: 300px;
+
+    background-color: aliceblue;
+
+}
+#service-bar>img{
+
+  border-radius: 20px;
+
+  }
+  .item-list-main{
+    margin-left: 300px;
+  }
+  .chicken{
+    font-size: larger;
+    font-family: sans-serif;
+    background-color: red;
+    color: white;
+    border-bottom-right-radius:100px ;
+    border-top-right-radius:100px ;
+    width: 300px;
+
+  }
+  h4{
+    font-size: large;
+    font-family: sans-serif;
+  }
+  .single{
+    background-color: aliceblue;
+    width: 300px;
+  }
+  .single>img{
+    margin-left: 47px;
+    border-radius: 100px;
+  }
+  #set{
+    display: flex;
+    justify-content: space-around;
+  }
+  .heading{
+    font-size: xx-large;
+    font-family: sans-serif;
+    background-color: red;
+    color: white;
+    border-bottom-right-radius:100px ;
+    border-top-right-radius:100px ;
+    width: 300px;
+ 
+  }
+  .btn{
+    font-size: larger;
+  }
+  #arr{
+    position: fixed;
+    top: 500px;
+    left: 1150px;
+
+  }
+  #arr>a>img{
+    border-radius: 100px;
+   height: fit-content;
+  }
+  #arr:hover{
+    box-shadow: 2px 2px 20px grey;
+    border-radius: 100px;
+    border: 4px solid black;
+  }
